@@ -1,7 +1,25 @@
+
 body {
+    padding: 50px; /*lo baja un poco del todo.*/
+    background: radial-gradient(rgba(0, 0, 0, 0.2) 1px, transparent 0.5px);
     background-color: white;
-    background      : radial-gradient(rgba(0, 0, 0, 0.2) 1px, transparent 0.5px);
-    background-size : 13px 13px;
+    background-size: 13px 13px;
     background-position: static;
     background-attachment: fixed;
+    font-size: 15px;
+    font-family: "Inconsolata";
+    line-height: 22px;
  }
+ .wrapper {
+    width: 860px;
+    margin: 0 auto;
+}
+  header {
+    padding: 15px;
+    background-color: white;
+    width: 270px;
+    float: left;
+    position: fixed;
+    border: #e9f0f0 solid 1px;
+    box-shadow: rgba(0,0,0,0.07)6px 6px;
+  }
