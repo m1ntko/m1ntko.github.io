@@ -1,6 +1,4 @@
-* {
-  
-}
+
 body {
     padding: 50px; /*lo baja un poco del todo.*/
     background: radial-gradient(rgba(0, 0, 0, 0.2) 1px, transparent 0.5px);
@@ -31,22 +29,21 @@ header {
   border: #e9f0f0 solid 1px;
   box-shadow: rgba(253, 175, 171, 1)6px 6px;
 }
-header a:link{
+header a:link {
+  color: #808080;
+  text-decoration: none;
+}
+header a:visited {
   color: grey;
   text-decoration: none;
 }
-header a:visited{
-  color: grey;
-  text-decoration: none;
-}
-header a:hover{
+header a:hover {
   color: rgba(253, 175, 171, 1);
   text-decoration: none;
-
 }
 section {
-  width:500px;
-  float:right;
+  width:  500px;
+  float:  right;
   padding: 15px;
   padding-bottom:50px;
   background-color: white;
@@ -55,8 +52,13 @@ section {
 }
 img {
   border-radius: 50%;
-  width:84px;
+  width:  84px;
   height: 84px;
+}
+#social img {
+  border-radius: 0%;
+  width:  9%;
+  height: 9%;
 }
 /* Colors
 box-shadow: rgba(0,0,0,0.07)6px 6px; grey
@@ -64,4 +66,5 @@ box-shadow:  6px 6px; orange
 box-shadow: rgba(250, 222, 225, 1)6px 6px; pink
 box-shadow: rgba(217, 241, 241, 1)6px 6px; blue
 box-shadow: rgba(250, 241, 214, 1)6px 6px; yellow
+
 */
